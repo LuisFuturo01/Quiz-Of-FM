@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-primary-text:#dedede;
+
+    --color-background-header:#ffffff;
+    --color-text-header:#000000;
+
+    --color-background-main:#fffaea;
+    --color-text-main:#b43838;
+}
+
+body {
+    font-family: "Archivo Black", sans-serif;
+    background-image: url(../img/fondo-computadora.jpg);
+    background-size: cover;
+    position: static;
+
+}
+.container{
+    position: relative;
+    padding: 1em;
+    margin: 20vh auto;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+h1, .robot{
+    color: var(--color-primary-text);
+    text-align: center;
+    text-shadow: 5px 5px 1px #000000;
+    font-size: 5em;
+}
+
+.robot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robot img{
+    width: 400px;
+    height: 400px;
+}
+
+
+/* Estilos específicos para tabletas */
+@media (max-width: 2100px) {
+    body {
+        /* background-image: url(../img/fondo-celular.jpeg); */
+    }
+}
