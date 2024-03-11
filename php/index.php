@@ -9,6 +9,31 @@
     $pr8=$_GET["pr8"];
     $pr9=$_GET["pr9"];
     $pr10=$_GET["pr10"];
+
+funtion lvp($pr){
+    if($pr=="a"){
+      
+    }
+    else if($pr=="b"){
+      
+    }
+    else if($pr=="c"){
+     
+    }
+    else if($pr=="d"){
+     
+    }
+    else if($pr=="e"){
+    
+    }
+    else if($pr=="f"){
+       
+    }
+    else if($pr=="g"){
+   
+    }
+}
+
     
 //      $valor1 = 15;
 //      $valor2 = 8;
@@ -70,207 +95,6 @@ foreach ($variables as $variable) {
     else if($pr1=="g"){
    
     }
-    //pr2
-    if($pr2=="a"){
-      
-    }
-    else if($pr2=="b"){
-      
-    }
-    else if($pr2=="c"){
-     
-    }
-    else if($pr2=="d"){
-     
-    }
-    else if($pr2=="e"){
-    
-    }
-    else if($pr2=="f"){
-       
-    }
-    else if($pr2=="g"){
-   
-    }
-    //pr3
-
-    if($pr3=="a"){
-      
-    }
-    else if($pr3=="b"){
-      
-    }
-    else if($pr3=="c"){
-     
-    }
-    else if($pr3=="d"){
-     
-    }
-    else if($pr3=="e"){
-    
-    }
-    else if($pr3=="f"){
-       
-    }
-    else if($pr3=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-    //pr1
-    if($pr1=="a"){
-      
-    }
-    else if($pr1=="b"){
-      
-    }
-    else if($pr1=="c"){
-     
-    }
-    else if($pr1=="d"){
-     
-    }
-    else if($pr1=="e"){
-    
-    }
-    else if($pr1=="f"){
-       
-    }
-    else if($pr1=="g"){
-   
-    }
-
-
 
 
 ?>

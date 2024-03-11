@@ -6,46 +6,50 @@
 :root{
     --color-primary-text:#dedede;
 
-    --color-background-header:#ffffff;
-    --color-text-header:#000000;
-
     --color-background-main:#fffaea;
     --color-text-main:#b43838;
 }
 
 body {
-    font-family: "Archivo Black", sans-serif;
-    background-image: url(../img/fondo-computadora.jpg);
-    background-size: cover;
-    position: static;
-    
-
+    font-family: "Anta", sans-serif;
+    background-image: url(../img/fondo-cruces.jpg);
+    background-size: cover; 
 }
 .container{
     position: relative;
-    padding: 1em;
+    padding: 1px;
     margin: 20vh auto;
-    height: 80%;
+    height: calc(100vh - 200px);
     width: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    background-color: red;
 }
-h1, .robot{
+.text-primary, .robot, .text-secondary{
     color: var(--color-primary-text);
     text-align: center;
     text-shadow: 5px 5px 1px #000000;
-    font-size: 5em;
+    font-size: 5rem;
+    width: 100%;
 }
 
 .robot{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: yellow;
 }
 
 .robot img{
     width: 400px;
     height: 400px;
+    background-color: blue;
+}
+
+.text-primary, .text-secondary{
+    background-color: green;
+    
 }
 
 
