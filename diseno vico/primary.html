@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Personalidad Científica</title>
+  <link rel="stylesheet" href="stylesv.css">
+</head>
+<body>
+  <div class="test-container">
+    <h1>Test de Personalidad Científica</h1>
+    <form action="results.php" method="post">
+      <section class="questions">
+        <h2>Preguntas</h2>
+        <ol>
+          <li>
+            <p>¿Qué te apasiona más?</p>
+            <ul>
+              <li><input type="radio" name="question1" value="a"> La astronomía y el universo</li>
+              <li><input type="radio" name="question1" value="b"> La física y sus leyes</li>
+              <li><input type="radio" name="question1" value="c"> La química y sus misterios</li>
+              <li><input type="radio" name="question1" value="d"> La biología y la vida</li>
+              <li><input type="radio" name="question1" value="e"> La geología y la Tierra</li>
+              <li><input type="radio" name="question1" value="f"> Las matemáticas y la lógica</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué método de investigación te atrae más?</p>
+            <ul>
+              <li><input type="radio" name="question2" value="a"> Observación y análisis</li>
+              <li><input type="radio" name="question2" value="b"> Experimentación y medición</li>
+              <li><input type="radio" name="question2" value="c"> Simulación y modelado</li>
+              <li><input type="radio" name="question2" value="d"> Recopilación de datos y análisis estadístico</li>
+              <li><input type="radio" name="question2" value="e"> Trabajo de campo y estudio de casos</li>
+              <li><input type="radio" name="question2" value="f"> Formulación de hipótesis y resolución de problemas</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué tipo de problemas te gustaría resolver?</p>
+            <ul>
+              <li><input type="radio" name="question3" value="a"> Los misterios del universo</li>
+              <li><input type="radio" name="question3" value="b"> Las fuerzas de la naturaleza</li>
+              <li><input type="radio" name="question3" value="c"> La composición de la materia</li>
+              <li><input type="radio" name="question3" value="d"> Los secretos de la vida</li>
+              <li><input type="radio" name="question3" value="e"> La historia de la Tierra</li>
+              <li><input type="radio" name="question3" value="f"> Los enigmas del pensamiento</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué te motiva en tu búsqueda del conocimiento?</p>
+            <ul>
+              <li><input type="radio" name="question4" value="a"> La curiosidad y el deseo de comprender</li>
+              <li><input type="radio" name="question4" value="b"> La búsqueda de soluciones a problemas</li>
+              <li><input type="radio" name="question4" value="c"> El deseo de contribuir al avance científico</li>
+              <li><input type="radio" name="question4" value="d"> La fascinación por la belleza del mundo natural</li>
+              <li><input type="radio" name="question4" value="e"> La búsqueda de la verdad y el conocimiento objetivo</li>
+              <li><input type="radio" name="question4" value="f"> El deseo de dejar un legado en la historia</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué tipo de entorno de trabajo te gustaría tener?</p>
+            <ul>
+              <li><input type="radio" name="question5" value="a"> Un laboratorio con equipo especializado</li>
+              <li><input type="radio" name="question5" value="b"> Un campo de investigación al aire libre</li>
+              <li><input type="radio" name="question5" value="c"> Un laboratorio de computación con software avanzado</li>
+              <li><input type="radio" name="question5" value="d"> Un entorno académico con acceso a bibliotecas y recursos</li>
+              <li><input type="radio" name="question5" value="e"> Un equipo de trabajo colaborativo</li>
+              <li><input type="radio" name="question5" value="f"> Un trabajo independiente con poca supervisión</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Cuál de las siguientes habilidades consideras más importante para un científico?</p>
+            <ul>
+              <li><input type="radio" name="question6" value="a"> La capacidad de observación y análisis minucioso</li>
+              <li><input type="radio" name="question6" value="b"> La capacidad de diseñar y realizar experimentos con precisión</li>
+              <li><input type="radio" name="question6" value="c"> La habilidad para modelar y simular fenómenos complejos</li>
+              <li><input type="radio" name="question6" value="d"> La capacidad de recopilar, analizar e interpretar grandes conjuntos de datos</li>
+              <li><input type="radio" name="question6" value="e"> La habilidad para trabajar en equipo y comunicarse efectivamente</li>
+              <li><input type="radio" name="question6" value="f"> La capacidad de pensar creativamente y resolver problemas de forma innovadora</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué te intriga más del proceso científico?</p>
+            <ul>
+              <li><input type="radio" name="question7" value="a"> La formulación de hipótesis y la predicción de resultados</li>
+              <li><input type="radio" name="question7" value="b"> La realización de experimentos y la recolección de datos</li>
+              <li><input type="radio" name="question7" value="c"> El análisis de datos y la búsqueda de patrones</li>
+              <li><input type="radio" name="question7" value="d"> La comunicación de los hallazgos y la construcción de teorías</li>
+              <li><input type="radio" name="question7" value="e"> La aplicación del conocimiento científico para resolver problemas reales</li>
+              <li><input type="radio" name="question7" value="f"> El debate y la discusión de las ideas científicas</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué te inspira de los grandes científicos?</p>
+            <ul>
+              <li><input type="radio" name="question8" value="a"> Su curiosidad insaciable y su búsqueda constante de conocimiento</li>
+              <li><input type="radio" name="question8" value="b"> Su dedicación y perseverancia en la resolución de problemas complejos</li>
+              <li><input type="radio" name="question8" value="c"> Su creatividad e ingenio para desarrollar nuevas teorías y métodos</li>
+              <li><input type="radio" name="question8" value="d"> Su capacidad de pensar de forma crítica y cuestionar lo establecido</li>
+              <li><input type="radio" name="question8" value="e"> Su pasión por la ciencia y su deseo de contribuir al bien común</li>
+              <li><input type="radio" name="question8" value="f"> Su capacidad de comunicar ideas complejas de manera clara y accesible</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué contribución te gustaría hacer al mundo a través de la ciencia?</p>
+            <ul>
+              <li><input type="radio" name="question9" value="a"> Ampliar nuestro conocimiento del universo y sus misterios</li>
+              <li><input type="radio" name="question9" value="b"> Mejorar la vida de las personas y resolver problemas de salud</li>
+              <li><input type="radio" name="question9" value="c"> Desarrollar nuevas tecnologías y promover el progreso</li>
+              <li><input type="radio" name="question9" value="d"> Proteger el medio ambiente y luchar contra el cambio climático</li>
+              <li><input type="radio" name="question9" value="e"> Fomentar la educación científica y la cultura STEM</li>
+              <li><input type="radio" name="question9" value="f"> Inspirar a la próxima generación de científicos e innovadores</li>
+            </ul>
+          </li>
+          <li>
+            <p>¿Qué te parece más emocionante del futuro de la ciencia?</p>
+            <ul>
+              <li><input type="radio" name="question10" value="a"> La exploración espacial y la búsqueda de vida extraterrestre</li>
+              <li><input type="radio" name="question10" value="b"> Los avances en medicina y la cura de enfermedades</li>
+              <li><input type="radio" name="question10" value="c"> El desarrollo de la inteligencia artificial y la robótica</li>
+              <li><input type="radio" name="question10" value="d"> La comprensión del cerebro humano y la mente</li>
+              <li><input type="radio" name="question10" value="e"> La búsqueda de nuevas fuentes de energía y la sostenibilidad</li>
+              <li><input type="radio" name="question10" value="f"> La integración de la ciencia con la ética y la responsabilidad social</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <section class="options">
+        <h2>Opciones de Respuesta</h2>
+        <button type="submit">Enviar Respuestas</button>
+      </section>
+    </form>
+  </div>
+</body>
+</html>

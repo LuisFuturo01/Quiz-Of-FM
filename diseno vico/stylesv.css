@@ -1,0 +1,128 @@
+
+body{
+  font-family: "Madimi One", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0;
+  background-color: #22577A;
+}
+h1{
+  font-family: "Madimi One", sans-serif;
+	font-size: 3.5rem; 
+  color:antiquewhite;
+  letter-spacing: 4px;
+  
+}
+h2{
+  font-family: "Madimi One", sans-serif;
+    font-size: 2.5rem;
+}
+
+.test-container {
+  color: #22577A;
+font-size: 30px;
+text-align: left;
+
+
+
+}
+footer{
+  padding-bottom: 10%;
+}
+#p{
+  padding-bottom: 2%;
+}
+
+
+
+#main {
+  margin: 30px 8px;
+  padding: 30px;
+  border-radius: 5px;
+  background: #11aeb1;
+}
+#img {
+  max-width: 100%;
+  margin: auto;
+height: auto;
+border-radius:1rem;  
+ }
+
+#img-div {
+  background: 
+  #23ceece7;
+  padding: 20px;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+#img-caption {
+  margin: 15px 0 20px 0;
+}
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
+
+.block{
+  display: flex;
+  justify-content:space-around;
+  text-align: left; 
+  align-items: center;
+  width: 90%;
+}
+
+.block2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+@media (max-width: 790px){
+  h1{
+    line-height: 2.3rem;
+  }
+  h2{
+    line-height: 2.3rem;
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   .block2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#img3{
+  border-radius:2rem;
+box-shadow: 6px 6px 3px rgb(0, 0, 0, 0.5)
+
+}
+
+ #tribute-link{
+  color: #57CC99;
+}
+ #tribute-link:hover{
+  color:#22577A;
+  }
+
+ #img2{
+  animation-name: fade;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+ }
+
+ @keyframes fade {
+  
+  0%{
+    opacity:0;
+  }
+  100%{
+       opacity: 1;
+  } 
