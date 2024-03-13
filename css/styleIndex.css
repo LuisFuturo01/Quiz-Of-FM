@@ -41,10 +41,6 @@ p, a{
 a:hover{
     color: #58534b;
 }
-a:focus{
-    text-decoration: none;
-}
-  
 .esferas-contenedor{
     position: absolute;
     top: 0;
@@ -53,56 +49,48 @@ a:focus{
     height: 100%;
     overflow: hidden;
 }
-  
 .esferas{
     position: absolute;
     width: 100%; /* Ancho mayor para evitar el corte */
     height: 100%;
     animation: esfera 13s infinite linear;
 }
-  
 .esfera{
     position: absolute;
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-  
 .esfera1{
     width: 100px;
     height: 100px;
     top: 10%;
     left: 0;
 }
-  
 .esfera2{
     width: 50px;
     height: 50px;
     top: 40%;
     left: 30%;
 }
-  
 .esfera3{
     width: 70px;
     height: 70px;
     top: 70%;
     left: 60%;
 }
-  
 .esfera4{
     width: 80px;
     height: 80px;
     top: 20%;
     left: 90%;
 }
-  
 .esfera5{
     width: 60px;
     height: 60px;
     top: 80%;
     left: 20%;
 }
-  
 @keyframes esfera{
     0%{
         transform: translateX(-100%);
@@ -111,4 +99,3 @@ a:focus{
         transform: translateX(100%);
     }
 }
-  
