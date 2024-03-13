@@ -1,128 +1,192 @@
-
+*{
+  font-weight: -1000;
+  margin: 0;
+  padding: 0;
+}
 body{
-  font-family: "Madimi One", sans-serif;
+
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-align: center;
   margin: 0;
-  background-color: #22577A;
-}
-h1{
-  font-family: "Madimi One", sans-serif;
-	font-size: 3.5rem; 
-  color:antiquewhite;
-  letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2a4657;
+    padding: 0;
+    z-index: 10;
+  
   
 }
+h1{
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 3px #797979d2;
+  position: relative;
+  margin-top: -6vh;
+}
 h2{
-  font-family: "Madimi One", sans-serif;
-    font-size: 2.5rem;
+  margin-top: 2vh;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2.5rem;
 }
 
 .test-container {
-  color: #22577A;
-font-size: 30px;
-text-align: left;
+  color: #ffffff;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  text-align: left;
+}
+.questions{
+  font-family: "Barlow Condensed", sans-serif;
+}
+li{
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
 
 
 
+
+
+header{
+  height: 10vh;
 }
 footer{
-  padding-bottom: 10%;
+  height: 10vh;
 }
-#p{
-  padding-bottom: 2%;
-}
-
-
-
-#main {
-  margin: 30px 8px;
-  padding: 30px;
-  border-radius: 5px;
-  background: #11aeb1;
-}
-#img {
-  max-width: 100%;
-  margin: auto;
-height: auto;
-border-radius:1rem;  
- }
-
-#img-div {
-  background: 
-  #23ceece7;
-  padding: 20px;
-  margin: auto;
-  border-radius: 1rem;
+.fondo{
+  background-color: #0073b7;
+  background-image: linear-gradient(to bottom right, #0073b7, #77dd77);
+  height: 80vh;
+  position: fixed;
+  width: 100%;
+  z-index: -50;
 }
 
-#img-caption {
-  margin: 15px 0 20px 0;
+.contenido{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
 
-.img{
-  max-width: 100%;
-  height: auto;
-}
-
-.block{
-  display: flex;
-  justify-content:space-around;
-  text-align: left; 
-  align-items: center;
-  width: 90%;
-}
-
-.block2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+p, a{
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 3.5rem;
 
 }
-@media (max-width: 790px){
-  h1{
-    line-height: 2.3rem;
-  }
-  h2{
-    line-height: 2.3rem;
-  }
-  .block{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-   .block2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+a:hover{
+  color: #ffde00;
+}
+a
+.check{
+ display: none;
+}
+.esferas-contenedor{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-#img3{
-  border-radius:2rem;
-box-shadow: 6px 6px 3px rgb(0, 0, 0, 0.5)
 
+.esferas{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: esfera 13s infinite linear;
 }
 
- #tribute-link{
-  color: #57CC99;
+.esfera{
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
- #tribute-link:hover{
-  color:#22577A;
-  }
 
- #img2{
-  animation-name: fade;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
- }
+.esfera1{
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  left: 0;
+}
 
- @keyframes fade {
-  
+.esfera2{
+  width: 50px;
+  height: 50px;
+  top: 40%;
+  left: 30%;
+}
+
+.esfera3{
+  width: 70px;
+  height: 70px;
+  top: 70%;
+  left: 60%;
+}
+
+.esfera4{
+  width: 80px;
+  height: 80px;
+  top: 20%;
+  left: 90%;
+}
+
+.esfera5{
+  width: 60px;
+  height: 60px;
+  top: 80%;
+  left: 20%;
+}
+
+@keyframes esfera{
   0%{
-    opacity:0;
+      transform: translateX(-100%);
+  }100%{
+      transform: translateX(100%);
   }
-  100%{
-       opacity: 1;
-  } 
+}
+
+.form{
+  height: max-content;
+  z-index: -10;
+  position: absolute;
+}
+
+/* Ocultar el radio predeterminado */
+.styled-radio {
+  display: none;
+}
+
+/* Estilo para el contenedor del radio */
+.radio-container {
+  display: inline-block;
+  vertical-align: middle; /* Alinear verticalmente con el texto */
+  position: relative;
+  padding-left: 30px; /* Espacio para el nuevo diseño del radio */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre el contenedor */
+}
+
+/* Estilo para el nuevo diseño del radio */
+.radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%; /* Hacer el círculo */
+}
+
+/* Estilo del marcador de radio cuando está seleccionado */
+.styled-radio:checked + .radio {
+  background-color: #007bff;
+  border-color: #007bff;
+}
