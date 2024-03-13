@@ -159,34 +159,3 @@ a
   position: absolute;
 }
 
-/* Ocultar el radio predeterminado */
-.styled-radio {
-  display: none;
-}
-
-/* Estilo para el contenedor del radio */
-.radio-container {
-  display: inline-block;
-  vertical-align: middle; /* Alinear verticalmente con el texto */
-  position: relative;
-  padding-left: 30px; /* Espacio para el nuevo diseño del radio */
-  cursor: pointer; /* Cambiar el cursor al pasar sobre el contenedor */
-}
-
-/* Estilo para el nuevo diseño del radio */
-.radio {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 50%; /* Hacer el círculo */
-}
-
-/* Estilo del marcador de radio cuando está seleccionado */
-.styled-radio:checked + .radio {
-  background-color: #007bff;
-  border-color: #007bff;
-}
