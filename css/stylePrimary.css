@@ -99,7 +99,7 @@ h1, h2{
 }
 .container {
     font-family: "Barlow Condensed", sans-serif;
-    background-image: linear-gradient(to bottom right, #115275, #0b6379);
+    background-image: linear-gradient(to bottom right, #115275, #c1ced1);
     color: rgb(219, 214, 207);
     display: table-cell;
     padding: 1em;

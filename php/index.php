@@ -1,14 +1,14 @@
 <?php
-$pr1=$_POST["pr1"];
-$pr2=$_POST["pr2"];
-$pr3=$_POST["pr3"];
-$pr4=$_POST["pr4"];
-$pr5=$_POST["pr5"];
-$pr6=$_POST["pr6"];
-$pr7=$_POST["pr7"];
-$pr8=$_POST["pr8"];
-$pr9=$_POST["pr9"];
-$pr10=$_POST["pr10"];
+$pr1=$_GET["pr1"];
+$pr2=$_GET["pr2"];
+$pr3=$_GET["pr3"];
+$pr4=$_GET["pr4"];
+$pr5=$_GET["pr5"];
+$pr6=$_GET["pr6"];
+$pr7=$_GET["pr7"];
+$pr8=$_GET["pr8"];
+$pr9=$_GET["pr9"];
+$pr10=$_GET["pr10"];
 
 $ae=0 ;
 $in=0 ;
@@ -251,7 +251,7 @@ if ($pr2=="a"){
         "Arquímedes" => $ar,
         "Euclides" => $eu,
         "Hipatia" => $hi,
-        "Emmy Noether" => $en
+        "Emmy Noether" => $en,
     ];
     
     $maximo = max($puntajes);
@@ -296,8 +296,7 @@ if ($pr2=="a"){
             header("Location: ../html/scientist/en.html");
             break;
         default:
-            header("Location: ../html/scientist/default.html");
-            break;
+            header("Location: ../html/scientist/ae.html");
     }
 
 
